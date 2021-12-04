@@ -31,13 +31,8 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <!-- Github -->
+                            <a href="https://github.com/angelicajaylo/appointment-system" target="_blank" class="btn btn-primary" style="background-color: #333333;" href="#!" role="button"><i class="fab fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -47,8 +42,8 @@
 
         <!-- Background image -->
         <div class="p-5 text-center bg-image" style="
-          background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-          height: 400px;
+          background-image: url('images/bg.jpg');
+          height: 500px;
           margin-top: 58px;
         ">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
@@ -56,7 +51,7 @@
                     <div class="text-white">
                         <h1 class="mb-3">Heading</h1>
                         <h4 class="mb-3">Subheading</h4>
-                        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+                        <a class="btn btn-outline-light btn-lg" href="#add" role="button">Start</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +68,7 @@
             </div>
             <div class="create-btn-container mt-4">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-info" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+                <button type="button" class="btn btn-info" data-mdb-toggle="modal" id="add" data-mdb-target="#exampleModal">
                     Add Appointment
                 </button>
             </div>
